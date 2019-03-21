@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.serverController">
+    <children>
+        <Label layoutX="23.0" layoutY="14.0" prefHeight="19.0" prefWidth="79.0" text="IP Address:" />
+        <Label layoutX="23.0" layoutY="45.0" prefHeight="19.0" prefWidth="79.0" text="Port :" />
+        <Label layoutX="23.0" layoutY="194.0" text="Send Message :" />
+        <TextField fx:id="txtf_IpAddress" alignment="TOP_LEFT" editable="false" focusTraversable="false" layoutX="93.0" layoutY="12.0" prefHeight="15.0" prefWidth="173.0" text="127.0.0.1" />
+        <Label layoutX="282.0" layoutY="16.0" text="Received Message :" />
+        <Label layoutX="23.0" layoutY="319.0" prefHeight="28.0" prefWidth="159.0" text="Redey" />
+        <Button fx:id="btn_Send" layoutX="192.0" layoutY="315.0" mnemonicParsing="false" onAction="#btn_SendAction" prefHeight="36.0" prefWidth="79.0" text="Send" />
+        <TextField fx:id="txtf_Port" alignment="TOP_LEFT" editable="false" focusTraversable="false" layoutX="93.0" layoutY="44.0" prefHeight="15.0" prefWidth="173.0" text="10050" />
+        <TextArea fx:id="txta_ReceivedMessage" layoutX="282.0" layoutY="35.0" prefHeight="318.0" prefWidth="237.0" />
+        <TextArea fx:id="txta_SendMessage" layoutX="24.0" layoutY="215.0" prefHeight="88.0" prefWidth="243.0" />
+      <Label layoutX="24.0" layoutY="89.0" text="Choose Client :" />
+      <TextArea fx:id="txta_ChooseCli" layoutX="24.0" layoutY="110.0" prefHeight="75.0" prefWidth="243.0" />
+    </children>
+</AnchorPane>
