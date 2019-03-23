@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.control.*?>
 
@@ -17,6 +16,6 @@
         <TextArea fx:id="txta_ReceivedMessage" layoutX="282.0" layoutY="35.0" prefHeight="318.0" prefWidth="237.0" />
         <TextArea fx:id="txta_SendMessage" layoutX="24.0" layoutY="215.0" prefHeight="88.0" prefWidth="243.0" />
       <Label layoutX="24.0" layoutY="89.0" text="Choose Client :" />
-      <TextArea fx:id="txta_ChooseCli" layoutX="24.0" layoutY="110.0" prefHeight="75.0" prefWidth="243.0" />
+      <ListView fx:id="lv_ChooseCli" layoutX="23.0" layoutY="110.0" prefHeight="78.0" prefWidth="243.0" />
     </children>
 </AnchorPane>

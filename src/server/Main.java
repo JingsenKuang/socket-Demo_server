@@ -22,8 +22,8 @@ public class Main extends Application {
         primaryStage.setTitle("server");
         primaryStage.setScene(new Scene(root, 531, 366));
         primaryStage.show();
-        serverController controller = fxmlLoader.getController();
-        controller.startListening();
+//        serverController controller = fxmlLoader.getController();
+//        controller.startListening();
     }
 
 
